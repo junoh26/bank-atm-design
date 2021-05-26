@@ -2,11 +2,8 @@
 
 class Atm:
     
-    def __init__(self, userAccounts):
+    def __init__(self, userAccounts=[]):
         self.userAccounts = userAccounts
-
-    def getAccounts(self):
-        return self.userAccounts
 
     def insertCard(self, cardId):
         userAcc = None

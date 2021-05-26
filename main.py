@@ -9,7 +9,7 @@ def main():
 
     # Create accounts to simulate database of user accounts in reality
     accounts = []
-    for i in range(9999):
+    for i in range(10000):
         # Assume that card num is 8-digit and PIN num is 4-digit
         account = Account(i + 10000000, i)
         accounts.append(account)
