@@ -1,5 +1,4 @@
 # bank-atm-design
-# Title / Repository Name
 
 ## About / Synopsis
 
