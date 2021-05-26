@@ -1,48 +1,23 @@
 # bank-atm-design
 
-## About / Synopsis
+## About
 
-* What is it, what does it do / Abstract
-* Project status: working/prototype
-* Nuxeo Support
-
-See real examples:
-
-* <https://github.com/nuxeo/nuxeo/blob/master/README.md>
-* <https://github.com/nuxeo/nuxeo-drive/blob/master/README.md>
-* <https://github.com/nuxeo/nuxeo-sdk-ios/blob/master/README.md>
-
-## Table of contents
-
-Use for instance <https://github.com/ekalinin/github-markdown-toc>:
-
-> * [Title / Repository Name](#title--repository-name)
->   * [About / Synopsis](#about--synopsis)
->   * [Table of contents](#table-of-contents)
->   * [Installation](#installation)
->   * [Usage](#usage)
->     * [Screenshots](#screenshots)
->     * [Features](#features)
->   * [Code](#code)
->     * [Content](#content)
->     * [Requirements](#requirements)
->     * [Limitations](#limitations)
->     * [Build](#build)
->     * [Deploy (how to install build product)](#deploy-how-to-install-build-product)
->   * [Resources (Documentation and other links)](#resources-documentation-and-other-links)
->   * [Contributing / Reporting issues](#contributing--reporting-issues)
->   * [License](#license)
->   * [About Nuxeo](#about-nuxeo)
+* Emulated bank atm by providing functions that show balance, deposit money, and withdraw money 
+* Simplified real world applications
+>   * bank atm's database -> Started off main.py by pregenerating atm's user accounts with cardId, PIN number, and balance
+>   * User Inserts card into card reader -> Assumed the card to have a 8-digit integer ID
+>   * User enters PIN number -> Assumed PIN number to be 4-digit integer
 
 ## Installation
+* Install Python3: follow instructions in <https://realpython.com/installing-python>
+* From the command line: `git clone https://github.com/junoh26/bank-atm-design.git`
+>   * `cd bank-atm-design`
 
-Sample:
+## Run ATM software with UI
+* `python main.py`
+  > ![ATM terminal UI](./Desktop/atmUI.png)
 
-* From the Nuxeo Marketplace: install [the Sample Nuxeo Package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-sample).
-* From the command line: `nuxeoctl mp-install nuxeo-sample`
+## Run test
+* `python test.py`
 
-## Usage
 
-### Screenshots
-
-### Features
